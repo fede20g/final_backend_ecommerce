@@ -1,0 +1,42 @@
+## .NET / Visual Studio
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.userprefs
+project.lock.json
+artifacts/
+publish/
+[Pp]ublish/
+
+## Rider / VS Code
+.idea/
+.vscode/
+
+## Bases de datos SQLite (se regeneran con las migraciones)
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+
+## Archivos temporales de Office (lock)
+~$*
+
+## Prep personal de la defensa (no va al repo público)
+Guia_de_defensa_oral.docx
+
+## SO
+Thumbs.db
+.DS_Store
+
+## Documentos de estudio / referencia (no van al repo público)
+Explicacion_tecnica_sistema.docx
+Guia_de_prueba_sistema_distribuido.docx
+Servicio_final.pdf
